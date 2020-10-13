@@ -1,3 +1,5 @@
+# Bezpieczeństwo
+
 ## Git
 
 Plik `.gitignore`:
@@ -97,19 +99,11 @@ wp_localize_script('twist/js', 'WPURLS', [
 ]);
 ```
 
-WP OGÓLNE
+# WP OGÓLNE
 
 ## Własne Pola
 
 Do tworzenia własnych pól po stronie panelu administracyjnego zalecamy korzystać z [Carbon Fields](https://carbonfields.net/) lub [TypeRocket](https://typerocket.com/).
-
-## Motyw Startowy
-
-Przejdź do `wp-content/themes` a następnie skopiuj pliki z naszym [startowym motywem](https://gitlab.trui.pl/trui/twist):
-
-```
-git clone --depth=1 git@gitlab.trui.pl:trui/twist.git && rm -rf ./twist/.git
-```
 
 ## Przenosiny na inny serwer
 
